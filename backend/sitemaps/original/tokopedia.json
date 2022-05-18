@@ -1,0 +1,104 @@
+{
+  "_id": "tokped",
+  "startUrl": [
+    "https://www.tokopedia.com/search?st=product&q=headset%20gaming&srp_component_id=02.01.00.00"
+  ],
+  "selectors": [
+    {
+      "delay": 0,
+      "id": "product-wrapper",
+      "multiple": true,
+      "parentSelectors": [
+        "_root"
+      ],
+      "selector": "div.css-jza1fo > div",
+      "type": "SelectorElement"
+    },
+    {
+      "delay": 0,
+      "id": "name",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": "div.css-1b6t4dn",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "price",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": "div.css-1ksb19c",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "thumbnail",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "selector": "img.css-1c345mg",
+      "type": "SelectorImage"
+    },
+    {
+      "delay": 0,
+      "id": "rating",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": "span.css-t70v7i",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "sold",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": "span.css-1duhs3e",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "location",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": "span.css-1kdc32b:nth-of-type(2)",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "store",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": "span.css-1kdc32b:nth-of-type(1)",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "link",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "selector": "a.pcv3__info-content",
+      "type": "SelectorLink"
+    }
+  ]
+}

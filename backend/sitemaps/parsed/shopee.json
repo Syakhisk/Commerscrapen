@@ -1,0 +1,48 @@
+{
+  "productWrapper": {
+    "selector": "div.col-xs-2-4",
+    "type": "SelectorElement",
+    "isWrapper": true
+  },
+  "thumbnailUrl": {
+    "selector": ".yvbeD6.KUUypF > img",
+    "type": "SelectorImage",
+    "isWrapper": false
+  },
+  "location": {
+    "selector": "div.zGGwiV",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "name": {
+    "selector": "div.ie3A\\+n",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "price": {
+    "selector": "div.vioxXd",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "rating": {
+    "selector": "div.shopee-rating-stars__stars",
+    "type": "SelectorHTML",
+    "isWrapper": false
+  },
+  "store": {
+    "selector": ".null",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "sold": {
+    "selector": "div.r6HknA",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "link": {
+    "selector": "a",
+    "type": "SelectorLink",
+    "isWrapper": false
+  },
+  "source": "shopee"
+}

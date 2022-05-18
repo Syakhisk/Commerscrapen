@@ -1,0 +1,48 @@
+{
+  "productWrapper": {
+    "selector": "div.bl-flex-item.mb-8",
+    "type": "SelectorElement",
+    "isWrapper": true
+  },
+  "thumbnailUrl": {
+    "selector": "img.bl-thumbnail--img",
+    "type": "SelectorImage",
+    "isWrapper": false
+  },
+  "location": {
+    "selector": ".bl-product-card__location",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "name": {
+    "selector": "p.bl-text--ellipsis__2",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "price": {
+    "selector": "p.bl-text--subheading-20",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "rating": {
+    "selector": "p.bl-text--subdued a",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "store": {
+    "selector": ".bl-product-card__store a",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "sold": {
+    "selector": ".bl-product-card__description-rating-and-sold > p",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "link": {
+    "selector": ".bl-text--ellipsis__2 a",
+    "type": "SelectorLink",
+    "isWrapper": false
+  },
+  "source": "bukalapak"
+}

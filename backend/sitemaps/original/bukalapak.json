@@ -1,0 +1,104 @@
+{
+  "_id": "bukalapak",
+  "startUrl": [
+    "https://www.bukalapak.com/products?search%5Bkeywords%5D=headset%20gaming"
+  ],
+  "selectors": [
+    {
+      "delay": 0,
+      "id": "product-wrapper",
+      "multiple": true,
+      "parentSelectors": [
+        "_root"
+      ],
+      "selector": "div.bl-flex-item.mb-8",
+      "type": "SelectorElement"
+    },
+    {
+      "delay": 0,
+      "id": "name",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": "p.bl-text--ellipsis__2",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "price",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": "p.bl-text--subheading-20",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "rating",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": "p.bl-text--subdued a",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "sold",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": ".bl-product-card__description-rating-and-sold > p",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "store",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": ".bl-product-card__store a",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "location",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": ".bl-product-card__location",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "thumbnail",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "selector": "img.bl-thumbnail--img",
+      "type": "SelectorImage"
+    },
+    {
+      "delay": 0,
+      "id": "link",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "selector": ".bl-text--ellipsis__2 a",
+      "type": "SelectorLink"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ecomm-scrape-backend",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "transform": "node utils/transform-sitemap.js",
+    "scrape": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bluebird": "^3.7.2",
+    "puppeteer-autoscroll-down": "^1.1.1",
+    "puppeteer-core": "^14.1.0"
+  }
+}

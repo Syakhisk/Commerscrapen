@@ -1,0 +1,104 @@
+{
+  "_id": "shopee",
+  "startUrl": [
+    "https://shopee.co.id/search?keyword=headset%20gaming&trackingId=searchhint-1652794252-929c2331-d5e5-11ec-92c6-9440c9319a70"
+  ],
+  "selectors": [
+    {
+      "delay": 0,
+      "id": "product-wrapper",
+      "multiple": true,
+      "parentSelectors": [
+        "_root"
+      ],
+      "selector": "div.col-xs-2-4",
+      "type": "SelectorElement"
+    },
+    {
+      "delay": 0,
+      "id": "name",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": "div.ie3A\\+n",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "price",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": "div.vioxXd",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "thumbnail",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "selector": ".yvbeD6.KUUypF > img",
+      "type": "SelectorImage"
+    },
+    {
+      "delay": 0,
+      "id": "location",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": "div.zGGwiV",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "sold",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": "div.r6HknA",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "rating",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": "div.shopee-rating-stars__stars",
+      "type": "SelectorHTML"
+    },
+    {
+      "delay": 0,
+      "id": "store",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "regex": "",
+      "selector": ".null",
+      "type": "SelectorText"
+    },
+    {
+      "delay": 0,
+      "id": "link",
+      "multiple": false,
+      "parentSelectors": [
+        "product-wrapper"
+      ],
+      "selector": "a",
+      "type": "SelectorLink"
+    }
+  ]
+}

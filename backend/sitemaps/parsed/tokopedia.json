@@ -1,0 +1,48 @@
+{
+  "productWrapper": {
+    "selector": "div.css-jza1fo > div",
+    "type": "SelectorElement",
+    "isWrapper": true
+  },
+  "thumbnailUrl": {
+    "selector": "img.css-1c345mg",
+    "type": "SelectorImage",
+    "isWrapper": false
+  },
+  "location": {
+    "selector": "span.css-1kdc32b:nth-of-type(2)",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "name": {
+    "selector": "div.css-1b6t4dn",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "price": {
+    "selector": "div.css-1ksb19c",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "rating": {
+    "selector": "span.css-t70v7i",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "store": {
+    "selector": "span.css-1kdc32b:nth-of-type(1)",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "sold": {
+    "selector": "span.css-1duhs3e",
+    "type": "SelectorText",
+    "isWrapper": false
+  },
+  "link": {
+    "selector": "a.pcv3__info-content",
+    "type": "SelectorLink",
+    "isWrapper": false
+  },
+  "source": "tokopedia"
+}
